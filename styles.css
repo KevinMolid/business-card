@@ -1,0 +1,46 @@
+body {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #CCC5B9;
+}
+
+.profile-img {
+  width: 150px;
+}
+
+/*.profile-img:hover {
+  width: 146px;
+  border: 2px solid #252422;
+}*/
+
+.card {
+  color: #252422;
+  background: #FFFCF2;
+  width: 400px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 6px solid #ad6c2c;
+  border-radius: 3px;
+  box-shadow: 0 0 2px black;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  border-bottom: 6px solid #252422;
+  box-shadow: 0 0 4px black;
+}
+
+.card:hover p {
+  text-decoration: underline;
+}
+
+.description {
+  text-align: center;
+}
+
+.bordered {
+  border: 1px dotted red;
+}
